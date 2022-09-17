@@ -1,7 +1,40 @@
+<!DOCTYPE html>
 <html>
-    <head>
-        
-        <style>
+ 
+<head>
+    <style>
+       
+         
+        body {
+            background: linear-gradient(to right,
+                #12c2e9, #c471ed, #f64f59);
+        }
+         
+        .form {
+            width: 300px;
+            height: 300px;
+            display: grid;
+            place-content: center;
+ 
+            /* Add a transparency to the background
+               using rgba value */
+            background: rgba(255, 255, 255, 0.1);
+ 
+            /* Add a transparency to shadow */
+            box-shadow: 0 26px 42px rgba(0, 0, 0, 0.1);
+        }
+         
+        input,
+        button {
+            box-sizing: border-box;
+            width: 100%;
+            margin: 20px auto;
+            padding: 12px 20px;
+            border: none;
+            background: rgba(255, 255, 255, 0.1);
+            box-shadow: 0 13px 21px rgba(0, 0, 0, 0.05);
+        }
+       
         h1      {text-align:center; 
             font-size: 75px; 
             font-family: cursive; 
@@ -48,7 +81,8 @@
 }
 
 .banner {
-    background-color:#f1f1f1;
+    background-color: linear-gradient(to right,
+                #12c2e9, #c471ed, #f64f59);;
     background-size: cover;
     box-shadow: 0 10px 20px 0 rgb(149, 0, 255);
     margin:20px;
@@ -75,9 +109,11 @@ nav li {display:block;
 
     nav a {
 	display:block;
+    box-shadow: 0 10px 20px 0 rgb(149, 0, 255);
 	padding:3px;
 	text-decoration:none;
-	background-color:#fff;
+	background-color:linear-gradient(to right,
+                #12c2e9, #c471ed, #f64f59);;
 	color:#009;
 }
          
@@ -87,8 +123,10 @@ nav li {display:block;
 }
          
     </style>
-    </head>
-    
+    </style>
+</head>
+ 
+
     <div class="nav">     
         <div class="banner">
             <nav><ul>
@@ -98,128 +136,24 @@ nav li {display:block;
              <li><a href="Resume.html">Resume</a></li>
            </ul>
          </nav><br>
-         
-         <h1> Jen's Portfolio </h1>
-             
-                  </div>
-                 </div>
-             </div> 
-            
-        <!--<div class= "img-container">
-            <img src="Bio pic with family.png">-->
-            
-         </div>
-    
-    
-
-   <body class="background">
-    <div class="banner">
-            <h2>Welcome to my portfolio!</h2>
-            <p>I would like to add a slider here</p>
-            <br>
-        </div>
-    
-       
-     <!--<div class="banner">
-            <h1>Projects</h1>
-                <h2> Here are some Projects I have been working on</h2>
-            </div>
-       
-        <br>
-    
-            <div class="column">
-              <div class="card">
-                <img src="kindpng_1718210.png" height="150px">
-                <br>
-                <img src="NicePng_react-logo-png_2224705.png"  height="150px" width="75px">
-            <img src="SeekPng.com_bootstrap-logo-png_1424663.png"  height="150px" width="75px">
-            <br>
-            <h5>Frontend</h5>
-            <ul style="list-style-type: style type bullet;">
-                <li syle="padding-left: set_padding">
-                <a href="https://jengerred.github.io/Tetris-Basic.github.io/" target="_blank">Basic Tetris Game</a>
-           
-           <p>This was a really fun project! Go ahead and try it for yourself.</p>
-     </li>
-     <br>
-     <li>
-        <a href="https://jengerred.github.io/FirstWebpage.github.io/" target="_blank">My First Webpage</a>
-   <p>My very first webpage ever! This was another fun project! You can see check out what there is to do in my hometown. Click the links, or the pics of places to check out in Grand Rapids, Michigan!</p>
-    </li>
-    <br>
-    <li>
-        <a href="https://jengerred.github.io/PacMan.github.io/" target="_blank">PacMan</a>
-    <p>Watch the PacMan chomp across the screen!
-    </p>
-    </li>
-    <br>
-    <li>
-        <a href="https://jengerred.github.io/PracticeShapes.github.io/" target="_blank">Creating Shapes</a>
-    </li>
-    <br>
-<li>
-   <a href="https://jengerred.github.io/MovingObjects.github.io/" target="_blank">Moving Objects</a>
-</li>
-</ul>
-    </div>
+        
+        
+         <body>
+    <h1> Jen's Portfolio </h1>
 </div>
-            </div>
-            <div class="column">
-              <div class="card">
-                <img src="kisspng-node-js-javascript-npm-computer-icons-web-applicat-5ae0f85a3ac1c4.3592483215246930822407.png" width="150px" height="150px">
-                <br>
-                <img src="kisspng-web-development-express-js-javascript-software-fra-frame-work-5b15153d24d3f6.9133133015281083491509.png"  width ="220px" height="150px">
-          <h5>Backend</h5>
-                <ul style="list-style-type: style type bullet;">
-                    <li syle="padding-left: set_padding">
-               <h3>More projects will go here</h3>
-           </li>
-           <li>
-            <h3>More projects will go here</h3>
-        </li>
-        <li>
-            <h3>More projects will go here</h3>
-        </li>
-        <li>
-            <h3>More projects will go here</h3>
-        </li></div>
-            </div>
-            <div class="column">
-              <div class="card"> 
-                <img src="dlf.pt-mongodb-png-2367745.png"  height="150px">
-                <br>
-                      <img src="pngaaa.com-2196932.png"  height="150px">
-           <h5>Data</h5>
-                <ul style="list-style-type: style type bullet;">
-                    <li syle="padding-left: set_padding">
-               <h3>More projects will go here</h3>
-           </li>
-           <li>
-            <h3>More projects will go here</h3>
-        </li>
-        <li>
-            <h3>More projects will go here</h3>
-        </li>
-        <li>
-            <h3>More projects will go here</h3>
-        </li>
-        </ul>
-                </div>
-            </div>
-        </div>
-    </div>--> 
-
-    </body>
+</div>
 </body>
+      
+            <div class="banner">
+                    <h2>Welcome to my portfolio!</h2>
+                    <p>I would like to add a slider here</p>
+                    <br>
+                </div>
 
-        
-
-            
-    
-   
-
-
-
-
-        
-    
+               <!-- <form class="form">
+                    <input type="text" placeholder="xyz@gmail.com" /><br>
+                    <input type="password" placeholder="Enter Password" />
+                    <br>
+                    <button type="submit">Login</button>
+                </form>-->
+</html>
