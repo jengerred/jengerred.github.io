@@ -67,16 +67,19 @@
     background-color: rgb(149, 0, 255);
 }
 .container{
-         max-width: 100%;
+         width: 92%;
         justify-content: center;
         display:flex;
         flex-wrap:nowrap;
         flex-direction: row;
         align-items: flex-start;
         align-content: stretch;
-        padding: 20px;
-        gap: 30px;
-        margin:20px;
+        padding-top: 20px;
+        align-self: center;
+        gap: 25px;
+        
+        margin-top: 20px;
+        
 
     }
     .column {
@@ -87,14 +90,14 @@
   
             }   
     .card {
-        max-width:50%;
+        max-width:60%;
         box-shadow: 0 10px 20px 0 rgb(149, 0, 255); /* this adds the "card" effect */
         padding:20px;
         padding-top:30px;
         text-align: center;
         background-color: linear-gradient(to right,
                 #12c2e9, #c471ed, #f64f59);
-        margin-left: 10px;
+                margin-left: 10px;
         margin-right: 10px;
         margin-bottom:15px;
         overflow:hidden;
@@ -103,26 +106,28 @@
 }
 
 .banner1 {
+    
     align-self: center;
-    position: fixed; top: 110px;
+    position: fixed; top: 130px;
     height: 100px;
-    width: 95%;
+    width: 88%;
 
     color: linear-gradient(to right,
                 #12c2e9, #c471ed, #f64f59);;
    
     box-shadow: 0 10px 20px 0 rgb(149, 0, 255);
-    margin:15px;
+    margin: 15px;
     margin-bottom: 20px;
 }
 .banner {
-    width: 96%;
-    position: relative; top: 100px;
+    width: 90%;
+     top: 250px;
     color: linear-gradient(to right,
                 #12c2e9, #c471ed, #f64f59);;
     background-size: cover;
     box-shadow: 0 10px 20px 0 rgb(149, 0, 255);
     margin:20px;
+    position: relative;
 }
 
 
@@ -133,8 +138,8 @@
 nav { 
     font-size:35px;
   margin-left:20px;
-  position: fixed; top: 30px; 
-  width:900px;
+  position: fixed; top: 45px; 
+  width: 90%;
 
 }
 nav li {display:block;
@@ -160,19 +165,22 @@ nav li {display:block;
 }
 .column2 {
   float: left;
-  width: 31%;
-  padding: 0 10px;
-  margin-bottom: 20px;
+  width: 90%;
+  position: relative;
+  margin: 18px;
+  
             }
 
         .card2 {
   box-shadow: 0 10px 20px 0 rgb(149, 0, 255); /* this adds the "card" effect */
-  padding: 16px;
+  padding: 30px;
   text-align: center;
   background-color: linear-gradient(to right,
                 #12c2e9, #c471ed, #f64f59);
- margin-left: 20px;
- margin-bottom:15px;
+ max-width: 30%
+
+ position: relative;
+ 
  
 }
          
@@ -189,22 +197,24 @@ nav li {display:block;
              <li><a href="#Projects">Projects</a></li>
              <li><a href="#Resume">Resume</a></li>
            </ul>
-         </nav><br><br><br><br>
+         </nav>
         
          
          <body>
             
     <h1 class="banner1"> Jen's Portfolio </h1>
-   
+            
 </div>
 </div>
-</body>
+
+<div><br>
+    
 <a id="Home"></a>
-<br><br><br><br><br><br><br><br>
+
             <div class="banner">
                     <h2>Welcome to my portfolio!</h2>
                     <p>I would like to add a slider here</p>
-                    <br><br>
+                    <br><br><br><br>
                 </div>
 
                <!-- <form class="form">
@@ -213,57 +223,64 @@ nav li {display:block;
                     <br>
                     <button type="submit">Login</button>
                 </form>-->
-<body>
-    <a id="AboutMe"></a><br><br><br><br><br><br>
+            </div>
+                
+                    <div>
+                        <br><br><br><br>
+    <a id="AboutMe"></a>
+</div>
                 <div class="banner">
                     <h1>About Me</h1>
-                    </div>
-<br><br>
-                <div class="container">
- 
-                    <div class="card">
-                        
-                    <img src="IMG_8761.jpg" height="600px" width="95%"> 
-                    <br>
-                    This is how you add text to a pic
-                </div>
+                    </div><br><br><br><br><br><br><br><br><br><br>
+
+                    <div class="container">
                     
-                
-                           
+                    <div class="card">
+                    
+                        <img src="IMG_8761.jpg" height="300px" width="95%"> 
+                    <br>This is how you add text to a pic
+                </div>
+            
+            
                     
                             <div class="card">
                                 
                                      <h2>Jennifer Gerred</h2>
-                                    <p class="tab"> I am at the beginning of my learning journey with full-stack development. I am looking forward to adding more projects to my portfolio. I really love putting to use what I've learned so far. Just check out my <a href="Projects.html">Projects</a> page to see what I have been able to do. I still have a long way to go but I am very eager to learn and it is so much fun seeing how everything comes together. I can't wait to continue to learn and grow as a developer!  </p>
-                                    
+                                    <p class="tab"> I am at the beginning of my learning journey with full-stack development. I am looking forward to adding more projects to my portfolio. I really love putting to use what I've learned so far. Just check out my 
+                                        
+                                       <a href="#Projects">Projects</a> page to see what I have been able to do. I still have a long way to go but I am very eager to learn and it is so much fun seeing how everything comes together. I can't wait to continue to learn and grow as a developer!  </p>
+                                    </div>
                              </div>
+                            </div>
+                
                         
-</div>
+
 </body>
-                    </div>    
-                    <a id="Projects"></a><br><br><br><br><br><br>
+                     
+                    <div>
+                    <a id="Projects"></a>
+                    <br><br><br><br><br>
                     <div class="banner">
                         <h1>Projects</h1>
                             <h2> Here are some Projects I have been working on</h2>
-                        </div>
+                        </div><br><br><br><br><br><br><br>v<br>
                    
                     <br><br><br>
                 <div class="container">
                         <div class="column2">
-              
-                          <div class="card2">
+                            <div class="card2">
                             <img src="kindpng_1718210.png" height="150px">
                             <br>
                             <img src="NicePng_react-logo-png_2224705.png"  height="150px" width="75px">
-                        <img src="SeekPng.com_bootstrap-logo-png_1424663.png"  height="150px" width="75px">
-                        <br>
-                        <h5>Frontend</h5>
-                        <ul style="list-style-type: style type bullet;">
-                            <li syle="padding-left: set_padding">
+                            <img src="SeekPng.com_bootstrap-logo-png_1424663.png"  height="150px" width="75px">
+                            <br>
+                            <h5>Frontend</h5>
+                            <ul style="list-style-type: style type bullet;">
+                        <li syle="padding-left: set_padding">
                             <a href="https://jengerred.github.io/Tetris-Basic.github.io/" target="_blank">Basic Tetris Game</a>
                        
-                       <p>This was a really fun project! Go ahead and try it for yourself.</p>
-                 </li>
+                            <p>This was a really fun project! Go ahead and try it for yourself.</p>
+                        </li>
                  <br>
                  <li>
                     <a href="https://jengerred.github.io/FirstWebpage.github.io/" target="_blank">My First Webpage</a>
@@ -306,8 +323,9 @@ nav li {display:block;
                     </li>
                     <li>
                         <h3>More projects will go here</h3>
-                    </li></div>
-                        </div>
+                    </li>
+                </div>
+                    </div>
                         <div class="column2">
                           <div class="card2"> 
                             <img src="dlf.pt-mongodb-png-2367745.png"  height="150px">
@@ -331,24 +349,23 @@ nav li {display:block;
                             </div>
                         </div>
                     </div>
-                </div>
-            </div>
+              
+        
                 
                <!---<body class="background">--> 
-                <a id="Resume"></a> <br><br><br><br>
+            <div></div><a id="Resume"></a> <br><br><br><br>
                 <div class="banner">
                         <h1>Resume</h1>
-                        </div><br><br><br>
+                        </div>
+                        <br><br><br><br><br><br><br><br><br><br><br><br>
                         <div class="column">
                             <div class="card">
                                 <p>My resume will go on this page.</p>
                                 </div>
                                 </div>
-                            
+                            </div>
                       </body>
             
-                </body>
-            </body>      
-    </body>
+              
 </head>
 </html>
